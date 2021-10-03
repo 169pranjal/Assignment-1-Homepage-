@@ -17,7 +17,7 @@ const Homepage = () => {
                <h3>Learn from the best having 20+ Years experience</h3>
                <button>Buy Now</button>
                </div>
-               <img className="chemist-image" src={Chemist}/>
+               <img className="chemist-image" src={Chemist} alt="chemist-image"/>
             </div>
             <div className="features">
                    <h2 className="red-text">
@@ -34,17 +34,17 @@ const Homepage = () => {
                </div>
                <div className="features-cards">
                 <div className="card">
-                    <img src={Notes}/>
+                    <img src={Notes} alt="Notes"/>
                     <h2>Accurate Notes</h2>
                     <p>Includes designed Mindmaps and puzzles</p>
                 </div>
                 <div className="card">
-                    <img src={PPt}/>
+                    <img src={PPt} alt="PPt" />
                     <h2>Animated PPT's</h2>
                     <p>Includes textbook questions and examples</p>
                 </div>
                 <div className="card">
-                    <img src={quiz}/>
+                    <img src={quiz} alt="quiz"/>
                     <h2>Topicwise Quiz</h2>
                     <p>Includes MCQ Paper 1 type questions</p>
                 </div>
@@ -59,7 +59,7 @@ const Homepage = () => {
                      <p>Get all at just 500</p>
                      <button>Buy Now</button>
                    </div>
-                   <img src={atom} className="atom-image"/>
+                   <img src={atom} className="atom-image" alt="atom-image"/>
                    <div className="plan-card 2">
                      <h2>Yearly Plan</h2>
                      <p>Get all at just 5000</p>
