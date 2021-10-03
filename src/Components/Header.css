@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.tabs {
+    display: flex;
+    padding: 20px 10px;
+}
+
+.tabs h2 {
+    margin: 0 10px;
+}
+.title h1 span {
+    color: red;
+    font: bold;
+}

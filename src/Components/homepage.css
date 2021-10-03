@@ -1,0 +1,120 @@
+.main-container {
+    display: flex;
+    padding: 40px 20px;
+    justify-content: space-between;
+}
+
+.red-text {
+    color: red;
+    font-size: 38px;
+    font-weight: 400;
+}
+.data {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+}
+.chemist-image {
+          right: 20px;
+          width: 600px;
+          height: 500px;
+}
+.title-text {
+    font: bold;
+    font-size: 50px;
+    line-height: 1;
+}
+.main-container .data button {
+    border-radius: 20px;
+    padding: 10px 15px;
+    width: 150px;
+    background-color: #f87a47;
+    color: white;
+    border: 0px;
+    font-size: 24px;
+}
+.main-container .data h3 {
+    font-size: 24px;
+}
+.light-title {
+    font-weight: 300;
+    color: grey;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+.features-heading {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+.features {
+    padding: 10px 30px;
+}
+.features-cards {
+    display: flex;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+}
+.features-cards .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+}
+.features-cards .card img {
+    width: 120px;
+    height: 100px;
+}
+.features-cards .card h2 {
+    font: bold;
+    font-size: 28px;
+    line-height: 0px;
+}
+.features-cards .card p {
+    margin: 0px;
+    font-size: 24px;
+}
+.available {
+    display: flex;
+    justify-content: space-around;
+    background-color: #D19CF5 ;
+    border-radius: 20px;
+    width: 80%;
+}
+.plan-card {
+    color: white;
+    padding: 5px;
+    font-size: 32px;
+}
+.plan-card p {
+     line-height: 0px;
+     font-size: 28;
+     font-weight: lighter;
+}
+.plan-card button {
+    background-color: white;
+    padding: 5px;
+    color: #D19CF5;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 24px;
+}
+.atom-image {
+    border-radius: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+}
+.plans {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.Offers {
+    padding: 30px 20px;
+}
