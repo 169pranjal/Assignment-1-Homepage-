@@ -17,7 +17,7 @@ const Homepage = () => {
                <h3>Learn from the best having 20+ Years experience</h3>
                <button>Buy Now</button>
                </div>
-               <img className="chemist-image" src={Chemist} alt="chemist-image"/>
+               <img className="chemist-image" src={Chemist} alt="chemist"/>
             </div>
             <div className="features">
                    <h2 className="red-text">
@@ -59,7 +59,7 @@ const Homepage = () => {
                      <p>Get all at just 500</p>
                      <button>Buy Now</button>
                    </div>
-                   <img src={atom} className="atom-image" alt="atom-image"/>
+                   <img src={atom} className="atom-image" alt="atom"/>
                    <div className="plan-card 2">
                      <h2>Yearly Plan</h2>
                      <p>Get all at just 5000</p>
